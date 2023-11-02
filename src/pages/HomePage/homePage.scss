@@ -8,4 +8,16 @@
   &__img {
     height: 15vw;
   }
+
+  &__links {
+    * {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      color: #fff;
+      text-decoration: none;
+      background-color: lightpink;
+      padding: 15px;
+      border-radius: 20px;
+    }
+  }
 }

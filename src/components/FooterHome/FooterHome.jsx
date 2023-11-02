@@ -4,8 +4,14 @@ const FooterHome = () => {
   return (
     <section className="footerHome">
       <div className="footerHome__container">
-        <p>
-          developed by <a href="#">vladian95</a>
+        <p className="footerHome__text">
+          developed by{' '}
+          <a
+            href="https://vladian95.github.io/port3d/"
+            className="footerHome__link"
+          >
+            vladian95
+          </a>
         </p>
       </div>
     </section>

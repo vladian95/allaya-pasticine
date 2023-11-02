@@ -3,11 +3,23 @@
   bottom: 0;
   left: 0;
   right: 0;
+  color: #fff;
 
   &__container {
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  &__text {
+    background-color: lightpink;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  &__link {
+    color: #fff;
+    font-size: 2em;
   }
 }
